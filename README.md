@@ -35,7 +35,7 @@ APP_SLUG=<your-hubspot-app-slug>
 
 3. Run `npm install`
 4. Open `http://localhost:3000/api/users/all` in the browser to get a list of dummy users
-5. Open `http://localhost:3000/api/sg/install?userForeignIdentifier=<YOUR_USER_ID>` to get the install link
+5. Open `http://localhost:3000/api/sg/install?userForeignIdentifier=<A_SAMPLE_USER_ID>` to get the install link
 6. Click on the link and follow through the prompts to grant access to StackGo
 7. Send a `POST` request `http://localhost:3000/api/hubspot/proxy` with this body:
 
